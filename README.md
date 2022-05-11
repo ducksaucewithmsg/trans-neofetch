@@ -94,3 +94,9 @@ dark grey   =     7
 light grey  =     8
 
 more on colors at https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit
+
+my color theme can be found at https://github.com/catppuccin
+
+i use red in place of pink, but that doesnt work for everyone, so just keep that in mind. 
+
+if you use this and find any trans flag colors looking too american, edit the set color and replace "1" with "5"
