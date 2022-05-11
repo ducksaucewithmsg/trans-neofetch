@@ -3,7 +3,6 @@ neofetch, but ♥ ✿ * gay* ♥ ✿
 
 
 
-read this as raw, idk how to set github up yet
 
 
 
