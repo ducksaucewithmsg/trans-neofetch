@@ -3,6 +3,9 @@ neofetch, but ♥ ✿ * gay* ♥ ✿
 
 
 
+read this as raw, idk how to set github up yet
+
+
 
 okay so i have little to no idea of how to do this, so as i figure it out i will fix stuff.
 SO my goal here is to rebuild neofetch with LGBTQIA+ themed distro ascii art
@@ -43,6 +46,8 @@ more info
 
 so this is what the ascii art is going to look like in the bin file
 
+```
+
         "PacBSD"*)
             set_colors 1 7 3
             read -rd '' ascii_data <<'EOF'
@@ -72,7 +77,7 @@ ${c1}      :+sMs.
             `-+oooyMMMdsoo+/:.
 EOF
         ;;
-        
+```
        
 things to know, set color was stupid confusing at fist but here is how it works
 -+ for PacBSD the colors 1 7 and 3 are set into order of 1 2 and 3. which means anything that comes after ${c1} will render as color 1, which is ansii color 1. anything that comes after ${c2} will render as color 7 however
