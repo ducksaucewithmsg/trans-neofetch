@@ -11,6 +11,8 @@ SO my goal here is to rebuild neofetch with LGBTQIA+ themed distro ascii art
 
 until i figure out how to make this an installable app, im just going to show you what i did to get what i got
 
+#### There is now an install script! See the bottom for more details
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 +-+-+ there are two files you need to find and edit
@@ -100,3 +102,11 @@ my color theme can be found at https://github.com/catppuccin
 i use red in place of pink, but that doesnt work for everyone, so just keep that in mind. 
 
 if you use this and find any trans flag colors looking too american, edit the set color and replace "1" with "5"
+
+
+
+# Install script
+
+If you want a painless experience you can simply execute `./install.sh` and it will do everything for you. 
+
+The command `neofetch` is replaced with an alias, which declares the correct art and colors. It is placed in `~/.bashrc`, `~/.zshrc` and `~/.config/fish/config.fish` if you say yes in the installer. Otherwise the alias is `echo`-ed and you can place it there yourself.
