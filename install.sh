@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE_TO_INSTALL="Kubuntu.txt"
+IMAGE_TO_INSTALL="Archcraft.txt"
 
 SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
 
