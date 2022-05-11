@@ -1,0 +1,51 @@
+        "Archcraft"*)
+            set_colors 1 6 7 2 3 4 5
+            read -rd '' ascii_data <<'EOF'
+${c1}✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥${c2}⢰⡆${c1}✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥
+${c5} ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥${c2}⢠⣿⣿⡄${c5}♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥
+${c4}✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿${c2}⢀⣾⣿⣿⣿⡀${c4}♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥
+${c2} ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ${c2}⣼⣿⣿⣿⣿⣷⡀${c2}✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥
+${c6}✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ${c1}⣼⣿⣿⣿⣿⣿⣿⣷${c6} ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥
+${c1} ♥ ✿ ♥ ✿ ♥ ✿ ♥ ${c1}⢼⣿⣿⣿⣿⣿⣿⣿⣿⣧${c1} ♥ ✿ ♥ ✿ ♥ ✿ ♥
+${c5}✿ ♥ ✿ ♥ ✿ ♥ ✿ ${c1}⣰⣤⣈⠻⢿⣿⣿⣿⣿⣿⣿⣧${c5} ♥ ✿ ♥ ✿ ♥ ✿ ♥
+${c4} ♥ ✿ ♥ ✿ ♥ ✿ ${c1}⣰⣿⣿⣿⣿⣮⣿⣿⣿⣿⣿⣿⣿⣧${c4} ✿ ♥ ✿ ♥ ✿ ♥
+${c2}✿ ♥ ✿ ♥ ✿ ♥ ${c3}⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧${c2} ✿ ♥ ✿ ♥ ✿ ♥
+${c6} ♥ ✿ ♥ ✿ ♥ ${c3}⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧${c6} ♥ ✿ ♥ ✿ ♥
+${c1}✿ ♥ ✿ ♥ ✿ ${c3}⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧${c1} ♥ ✿ ♥ ✿ ♥
+${c5} ♥ ✿ ♥ ✿ ${c3}⣼⣿⣿⣿⣿⣿⡿⣿⣿⡟${c5} ✿${c3}⠸⣿⣿⡿⣿⣿⣿⣿⣿⣷⡀${c5}✿ ♥ ✿ ♥
+${c4}✿ ♥ ✿ ♥ ${c1}⣼⣿⣿⣿⣿⣿⡏${c4} ♥ ✿ ♥ ✿ ♥${c1}⠈⣿⣿⣿⣿⣿⣷⡀${c4}✿ ♥ ✿ ♥
+${c2} ♥ ✿ ♥${c1}⢀⣼⣿⣿⣿⣿⣿⣿⡗${c2}✿ ♥${c1}⢀⣠⣤⣀${c2} ♥ ${c1}⠸⣿⣿⣿⣿⣿⣿⣷⡀${c2}♥ ✿ ♥
+${c6}✿ ♥ ✿${c1}⢀⣾⣿⣿⣿⣿⣿⡏⠁${c6}✿ ♥${c1}⢠⣿⣿⣿⣿⣧${c6} ♥ ✿${c1}⢙⣿⣿⣻⠿⣿⣷⡀${c6}♥ ✿ ♥
+${c1} ♥ ✿${c1}⢀⣾⣿⣿⣿⣿⣿⣿⣷⣤⡀${c1}✿ ♥${c1}⠻⣿⣿⡿⠃${c1}♥ ✿${c1}⢀⣼⣿⣿⣿⣿⣦⣌⠙${c1} ✿ ♥
+${c5}✿ ♥${c2}⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏${c5} ♥ ✿ ♥ ✿ ♥ ${c2}⢿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀${c5}✿ ♥
+${c4} ♥${c2}⢠⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⠁${c4} ✿ ♥ ✿ ♥ ✿ ♥ ${c2}⠙⠻⣿⣿⣿⣿⣿⣿⣿⣿⡄${c4}♥
+${c2}✿${c2}⣠⣿⣿⣿⣿⠿⠛⠋⠁${c2}✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ${c2}⠉⠙⠻⢿⣿⣿⣿⣿⣆${c2}♥
+${c2}⡰⠟⠛⠉⠁${c6}♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ${c2}⠉⠙⠛⠿⢆
+EOF
+        ;;
+
+        "Kubuntu"*)
+		set_colors 1 6 7 2 3 0
+		read -rd '' ascii_data <<'EOF'
+${c2}           `.:/ossyyyysso/:.
+${c2}        .:oyyyyyyyyyyyyyyyyyyo:`
+${c2}      -oyyyyyyyo${c6}dMMy${c2}yyyyyyysyyyyo-
+${c2}    -syyyyyyyyyy${c6}dMMy${c2}oyyyy${c6}dmMMy${c2}yyyys-
+${c1}   oyyys${c6}dMy${c1}syyyy${c6}dMMMMMMMMMMMMMy${c1}yyyyyyo
+${c1} `oyyyy${c6}dMMMMy${c1}syysoooooo${c6}dMMMMy${c1}yyyyyyyyo`
+${c1} oyyyyyy${c6}dMMMMy${c1}yyyyyyyyyyys${c6}dMMy${c1}sssssyyyo
+${c1}-yyyyyyyy${c6}dMy${c1}syyyyyyyyyyyyyys${c6}dMMMMMy${c1}syyy-
+${c3}oyyyysoo${c6}dMy${c3}yyyyyyyyyyyyyyyyyy${c6}dMMMMy${c3}syyyo
+${c3}yyys${c6}dMMMMMy${c3}yyyyyyyyyyyyyyyyyysosyyyyyyyy
+${c3}yyys${c6}dMMMMMy${c3}yyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+${c3}oyyyyysos${c6}dy${c3}yyyyyyyyyyyyyyyyyy${c6}dMMMMy${c3}syyyo
+${c1}-yyyyyyyy${c6}dMy${c1}syyyyyyyyyyyyyys${c6}dMMMMMy${c1}syyy-
+${c1} oyyyyyy${c6}MMMy${c1}syyyyyyyyyyys${c6}dMMy${c1}oyyyoyyyo
+${c1} `oyyyy${c6}dMMMy${c1}syyyoooooo${c6}dMMMMy${c1}oyyyyyyyyo
+${c1}   oyyysyyoyyyys${c6}dMMMMMMMMMMMy${c1}yyyyyyyo
+${c2}    -syyyyyyyyy${c6}dMMMy${c2}syyy${c6}dMMMy${c2}syyyys-
+${c2}      -oyyyyyyy${c6}dMMy${c2}yyyyyysosyyyyo-
+${c2}        ./oyyyyyyyyyyyyyyyyyyo/.
+${c2}           `.:/oosyyyysso/:.
+EOF
+        ;;
