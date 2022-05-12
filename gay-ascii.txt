@@ -1,5 +1,5 @@
         "Archcraft"*)
-            set_colors 1 6 7 2 3 4 5
+            set_colors 1 6 7 2 3 4 140
             read -rd '' ascii_data <<'EOF'
 ${c1}✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥${c2}⢰⡆${c1}✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥
 ${c5} ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥${c2}⢠⣿⣿⡄${c5}♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥
@@ -23,10 +23,10 @@ ${c2}✿${c2}⣠⣿⣿⣿⣿⠿⠛⠋⠁${c2}✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿
 ${c2}⡰⠟⠛⠉⠁${c6}♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ✿ ♥ ${c2}⠉⠙⠛⠿⢆
 EOF
         ;;
-
+	
         "Kubuntu"*)
-		set_colors 1 6 7 2 3 0
-		read -rd '' ascii_data <<'EOF'
+                set_colors 1 6 7 2 3 0
+                read -rd '' ascii_data <<'EOF'
 ${c2}           `.:/ossyyyysso/:.
 ${c2}        .:oyyyyyyyyyyyyyyyyyyo:`
 ${c2}      -oyyyyyyyo${c6}dMMy${c2}yyyyyyysyyyyo-
@@ -47,5 +47,75 @@ ${c2}    -syyyyyyyyy${c6}dMMMy${c2}syyy${c6}dMMMy${c2}syyyys-
 ${c2}      -oyyyyyyy${c6}dMMy${c2}yyyyyysosyyyyo-
 ${c2}        ./oyyyyyyyyyyyyyyyyyyo/.
 ${c2}           `.:/oosyyyysso/:.
+EOF
+        ;;
+	
+        "Debian"*)
+            set_colors 1 6 7 2 3 140
+            read -rd '' ascii_data <<'EOF'
+${c3}       _,met$$$$$gg.
+    ${c3},g$$$$$$$$$$$$${c1}$$$P.
+  ${c3},g$$P"     """${c1}Y$$.".
+ ${c3},$$P'              ${c1}`$$$.
+${c3}',$$P       ${c2},ggs.     ${c1}`$$b:
+${c1}`d$$'     ${c2},$P"'   ${c3}.${c1}    $$$
+ ${c1}$$P      ${c2}d$'     ${c3},${c1}    $$P
+ ${c1}$$:      ${c2}$$.   ${c3}-${c1}    ,d$$'
+ ${c1}$$;      ${c2}Y$b._   ${c1}_,d$P'
+ ${c1}Y$$.    ${c3}`.${c2}`"Y$$$$P"'
+ ${c1}`$$b      ${c3}"-.__
+  ${c2}`Y$$
+   ${c2}`Y$$.
+     ${c2}`$$b.
+       ${c2}`Y$$b.
+          ${c2}`"Y$b._
+              ${c2}`"""
+EOF
+        ;;
+	
+        "Gentoo"*)
+            set_colors 160 202 7 133 90 240
+            read -rd '' ascii_data <<'EOF'
+${c6}         -/oyddmdhs+:.
+     -o${c1}dNMMMMMMMMNNmhy+${c6}-`
+   -y${c1}NMMMMMMMMMMMNNNmmdhy${c6}+-
+`o${c2}mMMMMMMMMMMMMNmdmmmmddhhy${c6}/`
+ om${c2}MMMMMMMMMMMN${c6}hhyyyo${c2}hmdddhhhd${c6}o`
+.y${c2}dMMMMMMMMMMd${c6}hs++so/s${c2}mdddhhhhdm${c6}+`
+oy${c2}hdmNMMMMMMMN${c6}dyooy${c2}dmddddhhhhyhN${c6}d.
+:o${c3}yhhdNNMMMMMMMNNNmmdddhhhhhyym${c6}Mh
+    .:${c3}+sydNMMMMMNNNmmmdddhhhhhhmM${c6}my
+       /m${c3}MMMMMMNNNmmmdddhhhhhmMNh${c6}s:
+    `o${c4}NMMMMMMMNNNmmmddddhhdmMNhs${c6}+`
+`s${c4}NMMMMMMMMNNNmmmdddddmNMmhs${c6}/.
+ /N${c4}MMMMMMMMNNNNmmmdddmNMNdso${c6}:`
++M${c4}MMMMMMNNNNNmmmmdmNMNdso${c6}/-
+yM${c5}MNNNNNNNmmmmmNNMmhs+/${c6}-`
+/h${c5}MMNNNNNNNNMNdhs++/${c6}-`
+`/${c5}ohdmmddhys+++/:${c6}.`
+   `-//////:--.█
+EOF
+        ;;
+	
+        "Fedora"* | "RFRemix"*)
+            set_colors 1 6 7 3 2 140
+            read -rd '' ascii_data <<'EOF'
+${c2}          /:-------------:\\${c2}
+${c2}       :-------------------::${c2}
+${c2}     :-----------${c1}/shhOHbmp${c2}---:\\
+${c1}   /-----------${c4}omMMMNNNMMD  ${c1}---:
+${c1}  :-----------${c4}sMMMMNMNMP${c1}.    ---:
+${c1}:-----------${c4}:MMMdP${c1}-------    ---\\
+${c1},------------${c4}:MMMd${c1}--------    ---:
+${c3}:------------${c5}:MMMd${c3}-------    .---:
+${c3}:----    ${c5}oNMMMMMMMMMNho${c3}     .----:
+${c3}:--     .${c5}+shhhMMMmhhy++${c3}   .------/
+${c1}:-    -------${c2}:MMMd${c1}--------------:
+${c1}:-   --------${c2}/MMMd${c1}-------------;
+${c1}:-    ------${c2}/hMMMy${c1}------------:
+${c1}:--${c2} :dMNdhhdNMMNo${c1}------------;
+${c2}:---${c6}:sdNMMMMNds:${c2}------------:
+${c2}:------${c6}:://:${c2}-------------::
+${c2}:---------------------://
 EOF
         ;;
